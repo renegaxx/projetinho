@@ -1,0 +1,93 @@
+
+ul#JogadorEscolha li a,
+ul#computadorEscolha li a{
+    opacity: 0.2;
+    transition: ease-in-out 0.3s;
+}
+ul#JogadorEscolha li a:hover,
+ul#computador li a.selecionado,
+ul#computador Li a.selecionado {
+    opacity: 1;
+}
+body {
+    
+    background: linear-gradient(68.15deg, #fa43fa 16.62%, #f198eb 85.61%)
+    
+}
+
+#titulo {
+    text-align: center;
+    padding: 20px;
+    background-color: #420053;
+    color: #ffffff;
+    border-radius: 40px;
+}
+
+
+#placar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-radius: 30px0;
+}
+
+
+#jogador, #computador {
+    text-align: center;
+}
+
+
+#JogadorNome, #computadorNome {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.selecionado img {
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+
+#mensagem {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+#Jogador {
+    background-color: #8a0000;
+}
+img {
+    max-width: 200px; 
+    height: auto; 
+}
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
